@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Party Registration</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="partyRegistration.css">
+
+	</head>
+	<body>
+		<div id = "header">
+			<h1>Hadu's 2017 Halloween Party </h1>		
+			<button id = "checktime">COUNTDOWN</button>
+			<div id = "time">starts in <span id = "var1">??</span> days <span id = "var2">??</span> hours <span id = "var3">??</span> minutes! </div>
+
+		</div>
+
+		<form id="registration_form" action="confirmationEx.html" method="GET" >
+			
+
+			<fieldset>
+				
+				<legend><h3>Guest Info</h3></legend>
+
+				<label for = "username">Guest Name </label>
+				<input name="username" placeholder=" Username" id = "username" type="text" ><br><br>
+
+
+			<label for = "password">Password </label>
+				<input placeholder = " Password" id = "password" name="password" type="password" ><br><br>
+				
+				<label for = "confirm">Confirm Password </label><input placeholder = " Confirm password" id = "confirm" name = "confirm" type="password" ><br><br>
+				
+				<label for = "code">Invitation Code </label><input placeholder = "  INITIALS " id = "code" name = "code" type="password" ><br><br>
+
+				<label for = "costume">Do you have a costume? </label>
+				<input name = "costume" id = "radio1" value = "yes" type="radio"><label for = "radio1">Yes</label>
+				<input name = "costume" id = "radio2" value = "no" type="radio"><label for = "radio2">No</label><br><br>
+
+			</fieldset><br><br>
+
+			<fieldset>
+				<legend><h3>What would you like to bring to the party?</h3></legend>
+				<input name = "bring" id = "chb1" value = "candy" type="checkbox"><label for = "chb1">Candies </label>
+<!-- 			 for <input name="count" id = "count1"  min = "2" max = "12" type="number" > serves
+ -->				<br><br>
+				<input name = "bring" id = "chb2" value = "drink" type="checkbox"><label for = "chb2">Drink </label> 
+				<!-- for <input name="count" id = "count2"  min = "2" max = "12" type="number"> serves -->
+				<br><br>
+				<input name = "bring" id = "chb3" value = "snack" type="checkbox"><label for = "chb3">Snacks </label>
+				<!-- for <input name="count" id = "count3"  min = "2" max = "12" type="number" > serves -->
+				<br><br>
+
+				<input name = "bring" id = "chb4" value = "pumpkins" type="checkbox"><label for = "chb4">Pumpkins </label><br><br>
+				<!-- for <input name="count" id = "count3"  min = "2" max = "12" type="number" > serves -->
+
+				<input name = "bring" id = "chb5" value = "tools" type="checkbox"><label for = "chb5">Carving tools </label><br><br>
+				<!-- for <input name="count" id = "count3"  min = "2" max = "12" type="number" > serves -->
+
+<!-- 				for <input name="count" id = "count"  min = "2" max = "12" type="number" > serves -->
+			</fieldset><br><br>
+
+			<input id="submit_btn" type="submit" value="Register">
+
+		</form>
+		
+			
+		<div id = "rule">
+			<h3>Registration Rules</h3>
+			<ol>
+				<li>Both the username and the password need to have at least 5 characters.</li><br>
+				<li>This is a private event. Do you know a professor always wearing a baseball cap? You are invited to this party <Strong>only if</Strong> you can provide the correct initials. </li><br>
+				<li>You are required to wear a costume to attend the party.</li><br>
+				<li>As a courtsey, you are supposed to bring something to share with other guests. </li><br>
+			</ol>
+		</div>
+
+		<div id = "footer"></div>
+
+
+
+		<script src="partyRegistration.js"></script>
+	</body>
+</html>

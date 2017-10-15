@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Elements</title>
+</head>
+<body>
+
+	<h1>Forms</h1>
+
+	<h2>Most Typical Used</h2>
+
+<!-- Forms basic elements
+
+For checkbox and radiobutton, there are multiple inputs, but only related to one same variable. 
+
+
+-->
+
+	<form>
+		<ul>		
+			<li>Text<br/>
+				<input id = "name" name = "username" type = "text"><br/>
+				<input id = "name" name = "password" placeholder = "password"><br/>
+				<textarea id = "ta" name = "essay" cols = "30" row = "10"></textarea>
+			</li>
+
+			<li>Checkbox<br/>
+				<input name = "favColor" id = "favColor1" value = "red" type = "checkbox"><label for = "favcolor1">Red</label><br/>
+				<input name = "favColor" id = "favColor2" value = "green" type = "checkbox"><label for = "favcolor2">Green</label><br/>
+				<input name = "favColor" id = "favColor3" value = "blue" type = "checkbox"><label for = "favcolor3">Blue</label><br/>				
+			</li>
+
+			<li>Radio Buttons<br/>
+				<input name = "favFood" id = "favFood1" value = "chinese" type = "radio"><label for = "favfood1">Chinese</label><br/>
+				<input name = "favFood" id = "favFood2" value = "japanese" type = "radio"><label for = "favfood2">Japanese</label><br/>				
+				<input name = "favFood" id = "favFood3" value = "italian" type = "radio"><label for = "favfood3">Italian</label><br/>					
+			</li>		1
+			<li>Number Stepper<br/>
+				<input type="number" name="count" id = "myCount" value = "12" min = "10" max = "12"><br/>
+			</li>
+
+			<li>Select Boxes<br/>
+				<select name = "states" id = "myState">
+					<option value = "NJ">New Jersey</option>
+					<option value = "NY">New York</option>
+					<option value = "TX">Texas</option>
+				</select><br/>
+				<select multiple name = "city" id = "myCity">
+					<option value = "manhattan">Manhattan</option>
+					<option value = "queens">Queens</option>
+					<option value = "Brooklyn">Brooklyn</option>
+					<option value = "Bronx">Bronx</option>
+					<option value = "statenIsland">Staten Island</option>
+				</select> 
+			</li>
+
+
+		</ul>
+
+
+	<h2>Others</h2>
+	<ul>
+		<li>Image <input type = image src = "https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png"></li>
+		<li>Email <input type="email"></li>
+		<li>Range <input type="range"></li>
+		<li>Date <input type="date"></li>
+		<li>Month <input type="donth"></li>
+		<li>Week <input type="week"></li>
+		<li>Color w/ Value<input type=color value="#ff3d3d"></li>
+		<li>Progress bar<progress max="100" value="26"></progress></li>
+		<li>Meter <meter value="55" min="0" max="100"
+ low="25" high="75" optimum="15"></meter></li>
+ 		<li><a href="">More here</a></li>
+	</ul>
+		
+	<h2>Common Attributes</h2>
+	<ul>
+		<li>Disabled<br/>
+			<input disabled id="name" type="text"><br/>
+			<input disabled id="favcolor1" value="red" type="checkbox"><label for="favcolor1">Red</label><br/>
+		</li>
+		<li>Required<br/>
+			<input required id="name" type="text"><br/>
+			<input required id="favcolor1" value="red" type="checkbox"><label for="favcolor1">Red</label><br/>
+		</li>
+		<li>Checked<br/>		
+			<input checked id="favcolor1" value="red" type="checkbox"><label for="favcolor1">Red</label><br/>
+			<input checked name="favfood" id="favfood1" type="radio"><label for="favfood1">Oatmeal</label><br/>
+		</li>
+		<li>Read Only<br/>
+			<input readonly id="name" value="You can not type in this box or delete the text" type="text"><br/>	
+		</li>
+	</ul>
+	</form>
+	<script src="form.js"></script>
+</body>
+
+</html>
