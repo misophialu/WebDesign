@@ -1,0 +1,116 @@
+body{
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Cabin Sketch', cursive;
+	background-color: #242C38;
+	color: white;
+	font-size: 16px;
+}
+
+
+#logo img{
+	height: 550px;
+}
+
+#loginContainer{
+
+}
+
+
+#start_screen{
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+}
+
+#loginView {
+	position: absolute;
+	top: 300px;
+	transform: translate(0px, 0px);
+	opacity: 0;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+#loginView.active {
+	transition: opacity 250ms ease-out 0s;
+	opacity: 1;
+}
+
+.row {
+  	display: flex;
+  	justify-content: center;
+  	width: 300px;
+  	height: 30px;
+  	line-height: 30px;
+  	padding: 10px;
+}
+
+
+#buttons {
+	position: absolute;
+	top: 370px;
+	transform: translate(0px, 0px);
+  	display: flex;
+  	justify-content: space-between;
+  	width: 300px;
+  	height: 30px;
+  	line-height: 30px;
+}
+
+#buttons.hidden{
+	display: none;
+}
+
+
+#button {
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+button {
+	border-radius: 20px;
+	width: 120px;
+	color: #0B1938;
+	font-family: 'Cabin Sketch', cursive;
+	border:  0px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+input {
+	border-radius: 5px;
+	width: 200px;
+	color: #0B1938;
+	font-family: 'Cabin Sketch', cursive;
+	border:  0px;
+	font-size: 16px;
+	padding-left: 10px
+}
+
+footer{
+	position: absolute;
+	bottom: 80px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #0B1938;
+}
+
+button:focus{
+    outline: none;
+}

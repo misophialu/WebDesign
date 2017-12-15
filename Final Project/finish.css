@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Hind Vadodara', sans-serif;
+	background: #242C38;
+	color: white;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+}
+
+header{
+
+	width: 100%;
+	padding-right: 50px;
+	text-align: right;
+
+
+}
+
+h1{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+}
+
+
+#content{
+	position: relative;
+ 	box-sizing: border-box;
+	padding: 0px;
+	min-height: 600px;
+	width: 70%;
+	min-width: 900px;
+	background: white;
+	border: 30px solid #FD8967;
+}
+
+#back{
+	z-index: 10;
+	width: 100%;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+
+}
+
+#back img {
+	width: 50px;
+}
+
+#coins{
+	text-align: center;
+  	position: absolute;
+  	top: 50%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#coins img {
+	height: 540px;
+	width: 600px;
+}
+
+
+
+#note {
+ 	box-sizing: border-box;
+	width: 400px;
+	height: 240px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -130px 0 0 -200px;
+	background: rgba(253, 137, 103, 0.9);
+	border-radius: 20px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .25);
+	font-family: 'Bigelow Rules', cursive;
+	font-size: 80px;
+	color: white;
+	padding-top: 40px;
+	text-align: center;
+	text-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+
+
+
+button {
+	border-radius: 20px;
+	width: 200px;
+	height: 40px;
+	font-family: 'Ranchers', cursive;
+	border:  0px;
+	font-size: 16px;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, .25);
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: white
+}
+
+#otherOption{
+	background: #219653;
+}
+
+
+
+#home {
+	width: 90px;
+	background: #cccccc;
+
+}
+
+
+
+
+

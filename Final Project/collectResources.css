@@ -1,0 +1,196 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Hind Vadodara', sans-serif;
+	background: #242C38;
+	color: white;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+
+}
+
+header{
+
+	width: 100%;
+	padding-right: 50px;
+	text-align: right;
+
+
+}
+
+h1{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+}
+
+
+#content{
+	position: relative;
+	box-sizing: border-box;
+	padding: 0px;
+	width: 70%;
+	min-width: 900px;
+	min-height: 600px;
+
+  	display: flex;
+  	flex-wrap: nowrap;
+  	flex-direction: row;
+  	justify-content: center;
+	align-items: center;
+}
+
+#left{
+	position: relative;
+ 	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	min-height: 600px;
+	background: #FD8967;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+	align-items: center;
+
+}
+
+#right{
+	position: relative;
+ 	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	min-height: 600px;
+	background: white;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+
+}
+
+#back {
+ 	box-sizing: border-box;
+	width: 100%;
+  	display: flex;
+    flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#back img {
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 50px;
+}
+
+#missionCard {
+
+	width:  65%;
+	height: 70%;
+	border: 5px solid white;
+	border-radius: 20px;
+	padding: 30px;
+	background: white;
+	color: #0B1938;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+
+#issue, #infrastructure{	
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+  	flex-direction: row nowrap;
+  	justify-content: center;
+	align-items: center;
+
+}
+
+#infrastructure{
+	border-top: 1px dashed #0B1938;
+
+}
+
+#issueText {
+	width: 80%;
+	font-family: 'Oswald', sans-serif;
+}
+
+#infrastructureText {
+	width: 80%;
+}
+
+#fence, #infrastructureImg {
+	width: 20%;
+	margin-top: 10px;
+	font-size: 8px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#fence img , #infrastructureImg img{
+	width: 50px;
+}
+
+
+#instruction{
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+#options{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+	align-items: center;
+}
+
+h3{
+	font-family: 'Cabin Sketch', cursive;	
+	color: #FD8967;
+	font-size: 40px;
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	color: #0B1938;
+	font-size: 20px;
+}
+
+#trade img{
+	width: 150px;
+	cursor: pointer;
+
+}
+
+#gather img{
+	width: 130px;
+	margin-right: 15px;
+	cursor: pointer;
+
+}
+
+#commonFund img{
+	width: 110px;
+	margin-right: 15px;
+	cursor: pointer;
+
+}
+
+a{
+	margin: 0px;
+	padding: 0px;
+}
+

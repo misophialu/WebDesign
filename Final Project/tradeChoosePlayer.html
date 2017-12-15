@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Player to Trade</title>
+	<link rel="stylesheet" type="text/css" href="tradeChoosePlayer.css">
+	<link href="https://fonts.googleapis.com/css?family=Bigelow+Rules|Cabin+Sketch|Hind+Vadodara|Oswald|Ranchers" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<header>
+		<h1>Player <span id = "username"></span> | Collect resources - Trade</h1>
+	</header>
+	<div id = "content">
+		<div id = "nav">
+			<div id = "back"><a href="collectResources.html"><img src="img/backRed.png"></a></div>
+			<div id = "next"><a href="finish.html"><img src="img/nextRed.png"></a></div>
+		</div>
+		<div id = "board"><img src="img/board.png"></div>
+		<div id = "player">
+			<div class = "playerImg" id = "player1"><img src="img/player1.png"></div>
+			<div class = "playerImg" id = "player2"><img src="img/player2.png"></div>
+			<div class = "playerImg" id = "player3"><img src="img/player3.png"></div>
+			<div class = "playerImg" id = "player6"><img src="img/player6.png"></div>
+			<div class = "playerImg" id = "player5"><img src="img/player5.png"></div>
+			<div class = "playerImg" id = "player4"><img src="img/player4.png"></div>
+		</div>
+		<div id = "note">Select a player to initiate a trade!</div>
+
+		<div id="modal" class = "hidden">
+			<div id = "panel" class = "hidden">
+				<div id="panel1" class = "hidden">
+					<p><div>Ooops! To trade with players across the river, the town needs to have at least one bridge!</div></p>
+					<div id = "bridge"><img src = "img/bridge.png"></div>
+				</div>
+
+			<div id="panel2" class = "hidden">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/U41N02_9zNU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+
+				<div id="panel3" class = "hidden" >			
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jeASPXeIxQQ?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+			<button id="close_btn">Try another player</button>
+
+		</div>
+	<script src = "tradeChoosePlayer.js"></script>
+
+</body>
