@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Screener Survey</title>
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="ScreenerSurvey.css">
+
+</head>
+<body>
+	<div id = "header">
+		<h1>Applying for college?</h1>
+		<h2>Help us design better product for people like you! This survey will take no more than 3 minutes of your time.</h2>
+	</div>
+
+	<div id = "content">
+		<form action="">
+			<ul>
+			<li><h3>Q1: What is your age/grade?</h3>
+			<select name="age" id="age">
+					<option value="grade9">Grade 9</option>
+					<option value="grade10">Grade 10</option>
+					<option value="grade11">Grade 11</option>
+					<option value="grade12">Grade 12</option>
+					<option value="college">College Student</option>
+					<option value="other">Other</option>
+				</select>
+			</li>
+			
+			<li><h3>Q2: Why do you want to go to college? What does college mean to you?</h3>
+				<input name="q2" id="q21" value="minority" type="radio"><label for="minority">Never considered the option of not going to college </label><br/>
+				<input name="q2" id="q22" value="firstgen" type="radio"><label for="firstgen">It is a great honor to go to a college</label><br/>
+				<input name="q2" id="q23" value="" type="radio"><label for="outofstate">It is important for me to explore my life
+</label><br/>
+				<input name="q2" id="q24" value="" type="radio"><label for="other">Other:</label><input id="name" name="username" type="text">			
+			</li>
+
+			<li>
+			<h3>Q3: If there is a panel of experts available and they can answer any question you might have about going to college, what do you want to know the most?</h3>
+			<textarea id="q3" name="q3" cols="70" rows="7"></textarea>
+			</li>
+			<li>
+			<h3>Q4: How much support did you get from your counselor/teacher on your college application process/decision during the past 3 months?</h3>
+			I barely got any help. <input type=range> I got all my questions answered!
+
+			</li>
+			<li>
+			<h3>Q5: Do you identify yourself with any of the following group?</h3>
+				<input name="q5" id="q51" value="minority" type="checkbox"><label for="minority">Ethnical minority or from disadvantaged community/family </label><br/>
+				<input name="q5" id="q52" value="firstgen" type="checkbox"><label for="firstgen">First in your family to go to college</label><br/>
+				<input name="q5" id="q53" value="" type="checkbox"><label for="outofstate">Considering to apply Out-of-State colleges</label><br/>
+				<input name="q5" id="q54" value="" type="checkbox"><label for="other">Other:</label><input id="name" name="username" type="text">
+
+			</li>
+			<br>
+	</div>
+	<div id = "footer">
+		Created by Sophia Lu 
+	</div>
+</body>
+</html>
